@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Sketch&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+}
+.container {
+  max-width: 1280px;
+  width: 100%; 
+  margin-inline:24px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.information__logo{
+  background-color: black;
+  padding: 10px 19px;
+  border-radius: 4px;
+}
+.information__logo  a{
+  text-decoration:none;
+  color:white;
+}
+.information__name  a{
+  text-decoration:none;
+  color:black;
+}
+.information__logo_n_name{
+  display: inline-block;
+  font-size: 24px;
+  font-weight: bold;
+}
+.information__social{
+  display: inline-block;
+  margin-left: 90%;
+  font-size: 25px;
+  
+}
+.introduction{
+  margin-top: 50px;
+}
+table{
+  width: 100%;
+}
+td.part1{
+  width: 40%;
+}
+td.part2{
+  width: 60%;
+}
+td.part_3{
+  width:20%;
+}
+td{
+  vertical-align: top;
+  /* border: 2px solid black; */
+}
+.about_me{
+  margin: 30px 0;
+}
+.text_1{
+  display: inline-block;
+  margin-bottom: 30px;
+  font-size: 24px;
+  text-decoration: underline;
+  text-decoration-color: red;
+  font-weight: bold;
+}
+.text_2{
+  font-size:20px;
+}
+.button_download{
+  font-size: 15px;
+  display: block;
+  margin: 50px auto;
+  border: 2px solid red;
+  border-radius: 30px;
+  padding: 15px 30px;
+}
+button > a{
+  color:red;
+  text-decoration: none;
+}
+.skills{
+  font-size: 30px;
+  text-decoration: underline;
+  text-decoration-color: red; 
+  padding-bottom: 30px;
+  font-weight: bold;
+}
+td.core_skills{
+  width: 50%;
+}
+td.other_skills{
+  width: 50%;
+  
+}
+.skills__table button{
+  font-size: 16px;
+  border: 2px solid black;
+  border-radius: 30px;
+  margin: 6px;
+  padding: 10px 18px;
+}
+.work__exprience table{
+  margin-top: 20px;
+}
+.time{
+  font-size: 16px;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+.company{
+  font-size: 24px;
+  font-weight: 350;
+  padding-bottom: 10px;
+}
+.major{
+  font-size: 16px;
+  font-weight: bold;
+  padding-bottom: 20px;
+}
+.work__exprience li{
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+
