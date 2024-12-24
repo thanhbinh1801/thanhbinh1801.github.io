@@ -427,7 +427,7 @@ input[type=text]{
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  width: 260px;
+  width: 330px;
   height: 400px;
   margin-left: 10px;
   position: relative;
@@ -464,7 +464,7 @@ input[type=text]{
   position: absolute;
   top: 350px;
   left: 25px;
-  width: 220px;
+  width: 280px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -500,6 +500,7 @@ input[type=text]{
   color: white;
   width: 77%;
   background-color: #2A2A2A;
+  padding-top: 20px;
   margin-left: 25px;
   padding-left: 10px;
 }
