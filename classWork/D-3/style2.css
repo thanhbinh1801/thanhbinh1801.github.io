@@ -1,0 +1,32 @@
+.container {
+  background-color: rgb(84, 147, 84);
+  width: 400px;
+  height: 400px;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+.box_pink {
+  background-color: pink;
+  width: 200px;
+  height: 200px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.box_blue {
+  background-color: rgb(45, 124, 189);
+  width: 120px;
+  height: 120px;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+.box_yellow {
+  background-color: rgb(184, 184, 98);
+  width: 80px;
+  height: 80px;
+}

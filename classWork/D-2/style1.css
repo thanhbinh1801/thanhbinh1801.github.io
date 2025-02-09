@@ -1,0 +1,27 @@
+* {
+  padding: 0;
+  margin: 0; 
+}
+.container{
+  max-width: 1280px;
+  margin-inline: 24px;
+}
+/* .green{
+  color:green;
+}
+.red{
+  color:red;
+}
+.black-bg{
+  background-color: black;;
+}
+.purple-bg{
+  background-color: purple;
+}
+.font{
+  font-family: sans-serif;
+}
+h1.green, h1#binh{
+  color:while;
+  background-color: black
+} */

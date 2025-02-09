@@ -12,29 +12,22 @@
   margin-left: auto;
   margin-right: auto;
 }
-.information__logo{
-  background-color: black;
-  padding: 10px 19px;
-  border-radius: 4px;
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
 }
-.information__logo  a{
-  text-decoration:none;
-  color:white;
-}
-.information__name  a{
-  text-decoration:none;
-  color:black;
-}
-.information__logo_n_name{
-  display: inline-block;
-  font-size: 24px;
+.navbar__information{
   font-weight: bold;
 }
-.information__social{
-  display: inline-block;
-  margin-left: 90%;
-  font-size: 25px;
-  
+.navbar__information_icon{
+  background-color: black;
+  color:white;
+  padding: 10px 16px;
+  border-radius: 4px;
+}
+.navbar__social{
+  font-size: 20px;
 }
 .introduction{
   margin-top: 50px;
@@ -53,7 +46,6 @@ td.part_3{
 }
 td{
   vertical-align: top;
-  /* border: 2px solid black; */
 }
 .about_me{
   margin: 30px 0;
@@ -70,12 +62,20 @@ td{
   font-size:20px;
 }
 .button_download{
-  font-size: 15px;
-  display: block;
-  margin: 50px auto;
+  display:flex;
+  justify-content:center;
+  align-items: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.button_download > button{
+  font-size: 16px;
   border: 2px solid red;
-  border-radius: 30px;
-  padding: 15px 30px;
+  border-radius: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 20px;
 }
 button > a{
   color:red;
@@ -93,7 +93,6 @@ td.core_skills{
 }
 td.other_skills{
   width: 50%;
-  
 }
 .skills__table button{
   font-size: 16px;
