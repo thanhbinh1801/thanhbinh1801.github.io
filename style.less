@@ -949,10 +949,13 @@
 }
 
 .page4{
+  display: block;
+  width: 100vw;
+  height: 750px;
   .page4-background{
     position: relative;
-    width: 100vw;
-    height: 750px;
+    width: 100%;
+    height: 100%;
     img{
       width: 100%;
       height: 100%;
@@ -978,7 +981,6 @@
         color: white;
         margin-top: 200px;
         &-1{
-          margin-top: 70px;
           font-size: 24px;
           font-weight: bold;
           font-style: italic;
@@ -1012,40 +1014,53 @@
 }
 
 .page5{
+  display: block;
+  width: 100vw;
+  height: 130vh;
   .page5-background{
+    width: 100%;
+    height: 100%;
     top: -15px;
     position: relative;
     color: white;
     &-img{
-      width: 100vw;
-      height: 900px;
+      width: 100%;
+      height: 100%;
     }
     .page5-layout{
       position: absolute;
       top: 0;
       left: 0;
       display: flex;
+      width: 100%;
+      height: 100%;
       .page5-left{
         width: 50%;
+        // height: 100%;
         &-1{
-          margin-top: 250px;
-          margin-left: 280px;
+          width: 300px;
+          padding-top: 250px;
+          margin: auto;
           font-size: 22px;
+          text-align: center;
         }
         &-2{
-          margin-top: 20px;
-          margin-left: 320px;
+          width: 300px;
+          padding-top: 20px;
+          margin: auto;
           font-size: 50px;
           font-style: italic;
+          text-align: center;
         }
         &-3{
-          margin-top: 20px;
-          margin-left: 20px;
+          width: 700px;
+          padding-top: 20px;
+          padding-bottom: 50px;
+          margin: auto;
           text-align: center;
         }
         &-4{
-          margin-top: 50px;
-          margin-left: 320px;
+          margin: auto;
           width: 150px;
           height: 60px;
           background-color: #C8AA6E;
@@ -1064,7 +1079,7 @@
           list-style-type: none;
           margin-top: 50px;
           margin-left: 220px;
-          li{
+          .page5-list-item{
             .page5-img-container{
               display: flex;
               justify-content: center;
@@ -1086,23 +1101,18 @@
       }
       .page5-right{
         width: 50%;
-        margin-top: 50px;
-        margin-left: 50px;
-        margin-right: 50px;
+        height: 100%;
         .circle-line{
           border: 1px solid #C8AA6E;
-          width: 670px;
-          height: 670px;
+          transform: scale(0.8);
+          padding: 30px;
           border-radius: 60%;
           .page5-video-s1{
-            display: flex;
-            justify-content: center;
-            margin-top: 4%;
             .page5-video{
-              display: flex;
-              width: 92%;
-              height: 92%;
+              width: 100%;
+              height: 100%;
               border-radius: 60%;
+              object-fit: cover;
             }
           }
         }
@@ -1262,6 +1272,38 @@
         width: 100%;
         height: 70%;
       }
+      }
+    }
+  }
+
+  .page4{
+    height: 200vh;
+    .page4-background{
+      .page4-layout{
+        flex-direction: column-reverse;
+        .page4-left{
+          width: 100%;
+        }
+        .page4-right{
+          width: 100%;
+          margin-top: 20px;
+          margin-left: 20px;
+        }
+      }
+    }
+  }
+
+  .page5{
+    height: 250vh;
+    .page5-background{
+      .page5-layout{
+        flex-direction: column;
+        .page5-left{
+          width: 100%;
+        }
+        .page5-right{
+          width: 100%;
+        }
       }
     }
   }
