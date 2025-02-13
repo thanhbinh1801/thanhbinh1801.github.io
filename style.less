@@ -625,6 +625,7 @@
 
 .page1{
   position: relative;
+  display: block;
   width:100vw; 
   height: 750px;
   video{
@@ -801,28 +802,32 @@
 }
 
 .page3{
+  display: block;
   width: 100vw;
-  height: 1300px;
+  height: 150vh;
   .page3-background{
+    width: 100%;
+    height: 100%;
     position: relative;
-    img{
-      width: 100vw;
-      height: 1100px;
+    .page3-background-img{
+      width: 100%;
+      height: 100%;
       object-fit: cover;
     }
     .page3-layout{
       width: 96%;
-      height: 800px;
+      height: 100%;
       display: flex;
       justify-content: space-between;
       position: absolute;
       top: 0;
       left: 2%;
       .page3__left{
-        max-width: 50%;
+        width: 50%;
+        height: 100%;
         &__header{
-          width: 90%;
-          padding-top: 30%;
+          width: 100%;
+          padding-top: 20%;
           .header-1{
             width: 300px;
             margin:  auto;
@@ -911,13 +916,14 @@
       }
       .page3__right{
         width: 50%;
-        img{
+        height: 100%;
+        .list-item-img{
           width: 100%;
-          height: 100%;
+          height: 80%;
         }
         &__content{
-          width: 500px;
-          margin: auto;
+          width: 100%;
+          margin:  0 auto;
           padding-top: 20px;
           .page3__name{
             padding-bottom: 10px;
@@ -1244,46 +1250,18 @@
 
 @media only screen and (max-width: 1024px) {
   .page3{
-    .page3-layout{
-      flex-direction: column;
-      .page3__left{
-        height: 700px;
-        width: 100vw;
-        margin-top: -130px;
-        &__header{
-          .header-1{
-            padding-left: 75%;
-            padding-top: 5%;
-            font-size: 18px;
-          }
-          .header-2{
-            padding-left: 70%;
-            font-size: 50px;
-            font-weight: 500;
-          }
-          .header-3{
-
-            padding-left: 20%;
-          }
-        }
-        .two-btn{
-          padding-left: 50%;
-          margin-top: -50px;
-        }
-        .list-item-system{
-          padding-left: 18%;
-          margin-top: -40px;
-        }
+    height: 235vh;
+    .page3-background{
+      .page3-layout{
+        flex-direction: column;
+        .page3__left{
+        margin-top: -50px;
+        width: 100%;
       }
-      .page3__right{
-        width: 100vw;
-        height: 700px;
-        .list-item-img{
-          padding-left: 50%;
-        }
-        .page3__right__content{
-          padding-left: 50%;
-        }
+        .page3__right{
+        width: 100%;
+        height: 70%;
+      }
       }
     }
   }
