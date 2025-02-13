@@ -1076,17 +1076,20 @@
         }
         ul{
           display: flex;
+          justify-content: space-between;
           list-style-type: none;
-          margin-top: 50px;
-          margin-left: 220px;
+          padding-top: 50px;
+          width: 340px;
+          margin: auto;
           .page5-list-item{
+            width: 100px;
             .page5-img-container{
               display: flex;
               justify-content: center;
             }
             p{
               margin-top: 20px;
-              width: 120px;
+              width: 100px;
               font-size: 14px;
               text-align: center;
             }
@@ -1118,9 +1121,10 @@
         }
         &-text{
           &-header{
-            margin-top: 50px;
             font-style: italic;
-            margin-left: 160px;
+            margin: auto;
+            width: 500px;
+            text-align: center;
           }
           &-content{
             text-align: center;
@@ -1294,12 +1298,18 @@
   }
 
   .page5{
-    height: 250vh;
+    height: 240vh;
     .page5-background{
       .page5-layout{
         flex-direction: column;
         .page5-left{
+          margin-top: -200px;
           width: 100%;
+          ul{
+            .page5-list-item{
+              
+            }
+          }
         }
         .page5-right{
           width: 100%;
